@@ -26,9 +26,15 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a JavaScript library thats uses resusable components to make it easier, manageable, and efficient to create UI for applications. Components focus on their own respective UI pieces (with necessary data) and React updates and renders when the data changes (Virtual DOM). React cares about taking data and rendering it to the screen, in the most efficient way possible (stateful component ftw!)
+
 - [ ] What does it mean to _think_ in react?
 
+It means to break down an applications into some set of components (visually and functionally) to create a static website. Then making it dynamic by deciding which component should maintain internal state data(this.state), and which subcomponents should take in input data (this.props)
+
 - [ ] Describe state.
+
+
 
 - [ ] Describe props.
 
