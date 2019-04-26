@@ -34,8 +34,12 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <StarList starwarsChars={this.state.starwarsChars} /> 
+
+        <section className="cards">
+           <StarList starwarsChars={this.state.starwarsChars} /> 
         {/* starwarsChars is the prop that passes the array in state down to StarList from App */}
+        </section>
+        
       </div>
     );
   }
