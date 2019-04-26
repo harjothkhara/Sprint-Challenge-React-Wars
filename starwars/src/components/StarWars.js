@@ -8,6 +8,7 @@ function StarWars (props) {
         
         <div className="character">
             <h2>{props.name}</h2>
+
             <p>Birth Year: {props.birth_year}</p>
             <p>Created: {props.created}</p>
             <p>Eye Color: {props.eye_color}</p>
@@ -15,6 +16,7 @@ function StarWars (props) {
             <p>Hair Color: {props.hair_color}</p>
             <p>Height: {props.height}</p>
             <p>Species: {props.species}</p>
+        
       </div>
     )
 
