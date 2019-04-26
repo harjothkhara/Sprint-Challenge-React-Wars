@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import StarList from './components/StarList';
 
 class App extends Component {
   constructor() {
@@ -33,6 +34,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <StarList starwarsChars={this.state.starwarsChars} /> 
+        {/* starwarsChars is the prop that passes the array in state down to StarList from App */}
       </div>
     );
   }
