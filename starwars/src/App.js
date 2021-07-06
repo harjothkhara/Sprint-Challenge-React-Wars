@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getCharacters('https://swapi.co/api/people/');
+    this.getCharacters('https://swapi.dev/api/people/');
   }
 
   getCharacters = URL => {
@@ -36,10 +36,10 @@ class App extends Component {
         <h1 className="Header">React Wars</h1>
 
         <section className="cards">
-           <StarList starwarsChars={this.state.starwarsChars} /> 
-        {/* starwarsChars is the prop that passes the array in state down to StarList from App */}
+           <StarList characterData={this.state.starwarsChars} />
+        {/* characterData is the prop that passes the array in state down to StarList from App */}
         </section>
-        
+
       </div>
     );
   }
